@@ -1,4 +1,4 @@
-package io.merculet.auth.interceptor;
+package io.zlmkenan.mvp.interceptor;
 
 import com.google.common.base.Throwables;
 import io.grpc.*;
@@ -8,8 +8,8 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author zhou liming
- * @package io.merculet.user
- * @date 2018/11/13 15:48
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 @GRpcGlobalInterceptor

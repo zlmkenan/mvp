@@ -1,11 +1,11 @@
-package io.merculet.auth.util;
+package io.zlmkenan.mvp.util;
 
 import java.util.UUID;
 
 /**
  * @author zhou liming
- * @package io.merculet.auth.util
- * @date 2018-09-04 19:49
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 public class UUIDGenerator {

@@ -1,4 +1,4 @@
-package io.merculet.auth.controller;
+package io.zlmkenan.mvp.controller;
 
 import com.google.protobuf.Int64Value;
 import com.google.protobuf.StringValue;
@@ -15,11 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Iterator;
 
 /**
- * @author Chaos
- * @package cn.magicwindow.score.core.controller.api
- * @class SecurityController
- * @email chao.sun@magicwindow.cn
- * @date 2018/3/9 16:55
+ * @author zhou liming
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 

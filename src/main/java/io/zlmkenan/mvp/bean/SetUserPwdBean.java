@@ -1,4 +1,4 @@
-package io.merculet.auth.bean;
+package io.zlmkenan.mvp.bean;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.fasterxml.jackson.annotation.JsonProperty;

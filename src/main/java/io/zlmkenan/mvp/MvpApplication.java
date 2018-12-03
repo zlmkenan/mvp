@@ -1,21 +1,20 @@
-package io.merculet.auth;
+package io.zlmkenan.mvp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 入口
  * @author zhou liming
- * @package io.merculet.service
- * @date 2018/8/6 11:10
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 
 @SpringBootApplication
-public class AuthApplication {
+public class MvpApplication {
     public static void main(String[] args) {
 
-        SpringApplication.run(AuthApplication.class, args);
+        SpringApplication.run(MvpApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package io.merculet.auth.configuration;
+package io.zlmkenan.mvp.configuration;
 
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author zhou liming
- * @package io.merculet.service
- * @date 2018/8/6 11:10
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 @Configuration

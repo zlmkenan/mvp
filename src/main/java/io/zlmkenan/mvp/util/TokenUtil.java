@@ -1,4 +1,4 @@
-package io.merculet.auth.util;
+package io.zlmkenan.mvp.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -9,8 +9,8 @@ import java.util.Date;
 
 /**
  * @author zhou liming
- * @package io.merculet.auth.util
- * @date 2018/11/15 11:44
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 public class TokenUtil {

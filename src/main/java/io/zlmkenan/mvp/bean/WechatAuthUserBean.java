@@ -1,4 +1,4 @@
-package io.merculet.auth.bean;
+package io.zlmkenan.mvp.bean;
 
 import lombok.Data;
 

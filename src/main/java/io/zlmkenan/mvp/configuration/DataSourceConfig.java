@@ -1,4 +1,4 @@
-package io.merculet.auth.configuration;
+package io.zlmkenan.mvp.configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import lombok.Data;
@@ -14,11 +14,9 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 /**
- * @author Forest Wang
- * @package cn.magicwindow.meta.config
- * @class DataSourceConfig
- * @email forest@magicwindow.cn
- * @date 24/01/2017 15:11
+ * @author zhou liming
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 @Data

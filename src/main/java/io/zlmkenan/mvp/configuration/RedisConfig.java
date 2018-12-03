@@ -1,4 +1,4 @@
-package io.merculet.auth.configuration;
+package io.zlmkenan.mvp.configuration;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -13,11 +13,9 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
- * @author cuixing
- * @package cn.magicwindow.score.core.config
- * @class RedisConfig
- * @email xing.cui@magicwindow.cn
- * @date 2018/4/6 下午5:50
+ * @author zhou liming
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 @Data

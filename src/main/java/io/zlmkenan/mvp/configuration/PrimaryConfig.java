@@ -1,4 +1,4 @@
-package io.merculet.auth.configuration;
+package io.zlmkenan.mvp.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -21,11 +21,9 @@ import javax.sql.DataSource;
 import java.util.Map;
 
 /**
- * @author Forest Wang
- * @package cn.magicwindow.meta.config
- * @class PrimaryConfig
- * @email forest@magicwindow.cn
- * @date 24/01/2017 15:18
+ * @author zhou liming
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 @Configuration
@@ -34,7 +32,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactoryPrimary",
         transactionManagerRef = "transactionManagerPrimary",
-        basePackages = {"io.merculet.auth.repository"})
+        basePackages = {"io.zlmkenan.mvp.repository"})
 public class PrimaryConfig {
 
     @Autowired
@@ -57,7 +55,7 @@ public class PrimaryConfig {
                 .dataSource(primaryDataSource)
                 .properties(getVendorProperties())
                 // 设置实体类所在位置
-                .packages("cn.magicwindow.score.common.entity", "cn.magicwindow.score.common.domain")
+                .packages("io.zlmkenan.mvp.entity")
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }

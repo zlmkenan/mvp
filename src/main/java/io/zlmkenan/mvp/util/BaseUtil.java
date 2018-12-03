@@ -1,4 +1,4 @@
-package io.merculet.auth.util;
+package io.zlmkenan.mvp.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
@@ -9,7 +9,7 @@ import java.util.Objects;
 /**
  * Base64编码通用处理
  * @author zhou liming
- * @package cn.merculet.auth.util
+ * @package io.zlmkenan.mvp.util
  * @date 2018/9/26 15:01
  * @description
  */

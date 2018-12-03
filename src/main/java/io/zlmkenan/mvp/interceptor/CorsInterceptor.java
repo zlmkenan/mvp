@@ -1,4 +1,4 @@
-package io.merculet.auth.interceptor;
+package io.zlmkenan.mvp.interceptor;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author zhou liming
- * @package io.merculet.auth.interceptor
- * @date 2018/11/15 11:17
+ * @package io.zlmkenan.mvp
+ * @date 2018/12/3 16:54
  * @description
  */
 

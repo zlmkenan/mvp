@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <property name="LOG_HOME" value="/tmp/log/merculet-auth/"/>
+    <property name="LOG_HOME" value="/tmp/log/mvp/"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -9,9 +9,9 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_HOME}/merculet-auth.log</file>
+        <file>${LOG_HOME}/mvp.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>${LOG_HOME}/merculet-auth.log.%i</fileNamePattern>
+            <fileNamePattern>${LOG_HOME}/mvp.log.%i</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>4</maxIndex>
         </rollingPolicy>
