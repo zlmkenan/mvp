@@ -1,0 +1,13 @@
+server.port: 19130
+grpc.port: 19230
+
+spring.cloud.config.profile: dev #环境(dev, cntest, cnprod)
+spring.cloud.config.name: mysql,spring-config,merculet-rpc,redis,wechat-auth #所使用的配置，名称为config-server根目录的文件夹名称
+#spring.cloud.config.uri: http://config-server:19999/ #config server名称，固定。本地开发用config-server-dev.liaoyantech.cn
+#spring.cloud.config.uri: http://config-server-dev.liaoyantech.cn/ 本地开发使用，使用前需要将config-server-dev.liaoyantech.cn配置到host中
+
+spring.cloud.config.uri: http://config-server:19999/
+#spring.cloud.config.uri: http://config-server:19999/
+
+management.endpoint.health.show-details: always
+mvp.sign.key: 7fLEjFPhW9AmF5cKYbilYRx52ij3ceCVXKCgUk6UfXMwAWczvTWqlAQTGHIQuG8yL5p3givh8kHMrOoAOpAbM6RNpiQ4erfMLgPtTMIPiXbtBu9LclqygZ2JmPQs9bIY
